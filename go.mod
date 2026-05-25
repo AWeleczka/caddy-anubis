@@ -1,4 +1,4 @@
-module github.com/daegalus/caddy-anubis
+module github.com/AWeleczka/caddy-anubis
 
 go 1.24.1
 
