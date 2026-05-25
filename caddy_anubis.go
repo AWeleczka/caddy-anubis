@@ -60,7 +60,7 @@ func (m *AnubisMiddleware) Provision(ctx caddy.Context) error {
 			}
 		}),
 		Policy:         m.AnubisPolicy,
-		ServeRobotsTXT: true,
+		ServeRobotsTXT: false,
 	})
 	if err != nil {
 		return err
